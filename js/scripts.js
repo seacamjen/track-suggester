@@ -14,7 +14,12 @@ $(function(){
     var work = $("#environment").val();
 
     var startDate = $("#start").val();
-debugger;
+
+    if (startDate <= '2017-02-16') {
+      alert ("This date is in the past, Please select a future Date")
+      return false
+    } 
+
     var favoriteColor = $("#color").val();
 
     $('.panel-custom').css("background", favoriteColor)
