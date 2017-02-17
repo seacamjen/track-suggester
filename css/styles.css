@@ -5,3 +5,8 @@
 form {
   width: 500px;
 }
+
+p img {
+  width: 200px;
+  height: auto;
+}
