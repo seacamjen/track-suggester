@@ -10,3 +10,7 @@ p img {
   width: 200px;
   height: auto;
 }
+
+h1 .jumbotrop {
+  align-content: center;
+}
