@@ -9,82 +9,88 @@
   </head>
   <body>
     <div class="container">
-      <h1>Which Track is right for me?</h1>
-      <form class="ownInfo">
-        <div class="form-group">
-          <label for="firstName">First name:</label>
-          <input id="firstName" class="form-control" type="text">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Which Track is right for me?</h1>
+          <form class="ownInfo"> <!--Form Start -->
+            <div class="form-group">
+              <label for="firstName">First name:</label>
+              <input id="firstName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name:</label>
+              <input id="lastName" class="form-control" type="text">
+            </div>
+            <h3>What is your favorite color?</h3>
+            <div class="form-group">
+              <label for="color">What is your favorite color?</label>
+              <input id="color" class="form-control" type="color">
+            </div>
+            <h3>Do you prefer front-end or Back-end Developing?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontBack" value="front" checked>
+                Front-End (Making things look good)
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontBack" value="back">
+                Back-End
+              </label>
+            </div>
+            <h3>Work Environment Preference</h3>
+            <select class="form-control" id="environment">
+              <option value="1">Big established company</option>
+              <option value="2">Big company or other options</option>
+              <option value="3">Small business or larger</option>
+              <option value="4">Startups or Smaller companies</option>
+            </select>
+            <h3>When would you prefer to start?</h3>
+            <div class="form-group">
+              <label for="start">Start Date:</label>
+              <input id="start" class="form-control" type="date">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form> <!--Form End -->
         </div>
-        <div class="form-group">
-          <label for="lastName">Last name:</label>
-          <input id="lastName" class="form-control" type="text">
+        <div class="col-sm-6">
+          <div class="panelC">
+            <p>
+              <span class="firstname"></span>
+              <span class="lastname"></span><br>
+              This is where you can learn C# <span id="track"><span>. But keep in mind that you will always be able to learn more!
+            </p>
+          </div>
+          <div class="panelJava">
+            <p>
+              <span class="firstname"></span>
+              <span class="lastname"></span><br>
+              This is where you can learn Java <span id="track"><span>. But keep in mind that you will always be able to learn more!
+            </p>
+          </div>
+          <div class="panelPHP">
+            <p>
+              <span class="firstname"></span>
+              <span class="lastname"></span><br>
+              This is where you can learn PHP <span id="track"><span>. But keep in mind that you will always be able to learn more!
+            </p>
+          </div>
+          <div class="panelRuby">
+            <p>
+              <span class="firstname"></span>
+              <span class="lastname"></span><br>
+              This is where you can learn Ruby <span id="track"><span>. But keep in mind that you will always be able to learn more!
+            </p>
+          </div>
+          <div class="panelCSS">
+            <p>
+              <span class="firstname"></span>
+              <span class="lastname"></span><br>
+              This is where you can learn CSS <span id="track"><span>. But keep in mind that you will always be able to learn more!
+            </p>
+          </div>
         </div>
-        <h3>What is your favorite color?</h3>
-        <div class="form-group">
-          <label for="color">What is your favorite color?</label>
-          <input id="color" class="form-control" type="color">
-        </div>
-        <h3>Do you prefer front-end or Back-end Developing?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="frontBack" value="front" checked>
-            Front-End (Making things look good)
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="frontBack" value="back">
-            Back-End
-          </label>
-        </div>
-        <h3>Work Environment Preference</h3>
-        <select class="form-control" id="environment">
-          <option value="1">Big established company</option>
-          <option value="2">Big company or other options</option>
-          <option value="3">Small business or larger</option>
-          <option value="4">Startups or Smaller companies</option>
-        </select>
-        <h3>When would you prefer to start?</h3>
-        <div class="form-group">
-          <label for="start">Start Date:</label>
-          <input id="start" class="form-control" type="date">
-        </div>
-        <button type="submit" class="btn">Submit</button>
-      </form>
-      <div class="panelC">
-        <p>
-          <span class="firstname"></span>
-          <span class="lastname"></span><br>
-          This is where you can learn C# <span id="track"><span>. But keep in mind that you will always be able to learn more!
-        </p>
-      </div>
-      <div class="panelJava">
-        <p>
-          <span class="firstname"></span>
-          <span class="lastname"></span><br>
-          This is where you can learn Java <span id="track"><span>. But keep in mind that you will always be able to learn more!
-        </p>
-      </div>
-      <div class="panelPHP">
-        <p>
-          <span class="firstname"></span>
-          <span class="lastname"></span><br>
-          This is where you can learn PHP <span id="track"><span>. But keep in mind that you will always be able to learn more!
-        </p>
-      </div>
-      <div class="panelRuby">
-        <p>
-          <span class="firstname"></span>
-          <span class="lastname"></span><br>
-          This is where you can learn Ruby <span id="track"><span>. But keep in mind that you will always be able to learn more!
-        </p>
-      </div>
-      <div class="panelCSS">
-        <p>
-          <span class="firstname"></span>
-          <span class="lastname"></span><br>
-          This is where you can learn CSS <span id="track"><span>. But keep in mind that you will always be able to learn more!
-        </p>
       </div>
     </div>
   </body>
