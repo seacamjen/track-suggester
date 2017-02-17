@@ -23,28 +23,28 @@ $(function(){
       if (work === '1') {
         track = 'C#/.NET'
         $("#track").empty().prepend(track);
-        $(".panelC").show();
+        $(".panelC, .resultDisplay").show();
         $(".panelPHP, .panelCSS, .panelJava, .panelRuby").hide();
       } else if (work === '2') {
         track = 'Java/Android'
         $("#track").empty().prepend(track);
-        $(".panelJava").show();
+        $(".panelJava, .resultDisplay").show();
         $(".panelPHP, .panelCSS, .panelRuby, .panelC").hide();
       } else if (work === '3') {
         track = 'PHP/Drupal'
         $("#track").empty().prepend(track);
-        $(".panelPHP").show();
+        $(".panelPHP, .resultDisplay").show();
         $(".panelRuby, .panelCSS, .panelJava, .panelC").hide();
       } else {
         track = 'Ruby/Rails'
         $("#track").empty().prepend(track);
-        $(".panelRuby").show();
+        $(".panelRuby, .resultDisplay").show();
         $(".panelPHP, .panelCSS, .panelJava, .panelC").hide();
       }
     } else {
       track = 'CSS/Design'
       $("#track").empty().prepend(track);
-      $(".panelCSS").show();
+      $(".panelCSS, .resultDisplay").show();
       $(".panelPHP, .panelRuby, .panelJava, .panelC").hide();
     }
 

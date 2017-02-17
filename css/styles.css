@@ -1,4 +1,4 @@
-.panelC, .panelJava, .panelPHP, .panelRuby, .panelCSS {
+.panelC, .panelJava, .panelPHP, .panelRuby, .panelCSS, .resultDisplay {
   display: none;
 }
 
@@ -13,4 +13,17 @@ p img {
 
 h1 .jumbotrop {
   align-content: center;
+}
+
+body {
+  background-image: url("../img/pattern.png");
+}
+
+.resultDisplay {
+  background: #f7f8f9;
+}
+
+.panel-footer.panel-custom {
+  background: lightgreen;
+  color: white;
 }
