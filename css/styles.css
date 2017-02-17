@@ -21,6 +21,8 @@ body {
 
 .resultDisplay {
   background: #f7f8f9;
+  margin: 50px;
+  width; 90%;
 }
 
 .panel-footer.panel-custom {
