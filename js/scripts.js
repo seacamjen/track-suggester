@@ -12,6 +12,10 @@ $(function(){
 
     var work = $("#environment").val();
 
+    var startDate = $("#start").val();
+
+    var favoriteColor = $("#color").val();
+
     if (side === 'front'){
       side =
     }  else {
