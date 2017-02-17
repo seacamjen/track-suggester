@@ -27,3 +27,35 @@ body {
   background: lightgreen;
   color: white;
 }
+
+.top-navbar {
+  color: white;
+}
+
+.top-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top-navbar li {
+    float: left;
+}
+
+.top-navbar li.bar-right {
+  float:right;
+}
+
+.top-navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-navbar li a:hover {
+    background-color: gray;
+}
