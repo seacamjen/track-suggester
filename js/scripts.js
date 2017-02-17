@@ -1,6 +1,7 @@
 $(function(){
 
   $(".ownInfo").submit(function(){
+    event.preventDefault();
     var person1 = $("input#firstName").val();
     var person2 =
     $("input#lastName").val();
@@ -16,14 +17,25 @@ $(function(){
 
     var favoriteColor = $("#color").val();
 
-    if (side === 'front'){
-      side =
-    }  else {
-      side =
+    var track;
+
+    if (side === 'back') {
+      if (work === '1') {
+        track = 'C#/.NET'
+      } else if (work === '2') {
+        track = 'Java/Android'
+      } else if (work === '3') {
+        track = 'PHP/Drupal'
+      } else {
+        track = 'Ruby/Rails'
+      }
+    } else {
+      track = 'CSS/Design'
     }
 
-    $("#track").empty().append(side);
+
+    $("#track").prepend(track);
     $(".panel").show();
-    event.preventDefault();
+
   });
 });
