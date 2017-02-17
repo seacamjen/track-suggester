@@ -14,8 +14,10 @@ $(function(){
     var work = $("#environment").val();
 
     var startDate = $("#start").val();
-
+debugger;
     var favoriteColor = $("#color").val();
+
+    $('.panel-custom').css("background", favoriteColor)
 
     var track;
 
