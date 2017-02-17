@@ -1,3 +1,7 @@
-.panel {
+.panelC, .panelJava, .panelPHP, .panelRuby, .panelCSS {
   display: none;
+}
+
+form {
+  width: 500px;
 }
