@@ -17,6 +17,8 @@ h1 .jumbotrop {
 
 body {
   background-image: url("../img/pattern.png");
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .resultDisplay {
@@ -30,11 +32,11 @@ h3 {
   font-variant: small-caps;
 }
 
-.top-navbar {
+.navbar {
   color: white;
 }
 
-.top-navbar ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,15 +44,15 @@ h3 {
     background-color: #82adf2;
 }
 
-.top-navbar li {
+.navbar li {
     float: left;
 }
 
-.top-navbar li.bar-right {
+.navbar li.bar-right {
   float:right;
 }
 
-.top-navbar li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -58,6 +60,6 @@ h3 {
     text-decoration: none;
 }
 
-.top-navbar li a:hover {
+.navbar li a:hover {
     background-color: gray;
 }
