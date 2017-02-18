@@ -9,9 +9,9 @@ $(function(){
     $(".firstname").text(person1);
     $(".lastname").text(person2);
 
-    var side = $("input:radio[name=frontBack]:checked").val();
+    var developEnd = $("input:radio[name=frontBack]:checked").val();
 
-    var work = $("#environment").val();
+    var workEnvir = $("#environment").val();
 
     var startDate = $("#start").val();
 
@@ -26,16 +26,16 @@ $(function(){
 
     var track;
 
-    if (side === 'back') {
-      if (work === '1') {
+    if (developEnd === 'back') {
+      if (workEnvir === '1') {
         track = 'C#/.NET'
         $(".panelC, .resultDisplay").show();
         $(".panelPHP, .panelCSS, .panelJava, .panelRuby, .priorToResults").hide();
-      } else if (work === '2') {
+      } else if (workEnvir === '2') {
         track = 'Java/Android'
         $(".panelJava, .resultDisplay").show();
         $(".panelPHP, .panelCSS, .panelRuby, .panelC, .priorToResults").hide();
-      } else if (work === '3') {
+      } else if (workEnvir === '3') {
         track = 'PHP/Drupal'
         $(".panelPHP, .resultDisplay").show();
         $(".panelRuby, .panelCSS, .panelJava, .panelC, .priorToResults").hide();
