@@ -35,6 +35,7 @@ body {
 h3 {
   font-family: sans-serif;
   font-variant: small-caps;
+  text-align: center;
 }
 
 .navbar {
